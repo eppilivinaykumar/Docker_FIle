@@ -24,6 +24,13 @@ public class WelcomeRestController {
 		logger.info("******************************************************************");
 		return msg;
 	}
+public void m2(){
+
+int i = 10;
+
+int j = 30;
+
+}
 	
 	@GetMapping("/greet")
 	public String greetMsg() {
